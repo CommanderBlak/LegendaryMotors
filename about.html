@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <title>Legend Motorsport</title>
+  <title>About Us | Legendary Motors</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,24 +12,30 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
   <!-- CSS Stylesheet -->
-  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/about.css">
+
 
   <!-- Body font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 
   <!-- jQuery-->
   <script src="js/all.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+
 
 
 </head>
 
 <body>
   <!-- PreLoader-->
+  <div class="preloader d-flex justify-content-center align-items-center">
+    <img src="imgs/preloader.gif" alt="">
+  </div>
   <!-- End PreLoader-->
 
   <!-- nav Element-->
-  <nav class="navbar navbar-inverse navbar-expand-lg px-3" id="navBar">
-    <a class="navbar-brand" href="index.php">
+  <nav class="navbar navbar-inverse navbar-expand-lg px-3 fixed-top" id="navBar">
+    <a class="navbar-brand" href="index.html">
       <img src="imgs/car.png" alt="logo">
     </a>
     <button type="button" class="navbar-toggler navbar-toggle-right" data-toggle="collapse" data-target="#myNav">
@@ -41,7 +47,7 @@
     <div class="collapse navbar-collapse show" id="myNav">
       <ul class="nav navbar navbar-nav mx-auto">
         <li class="nav-item active">
-          <a href="index.php" class="nav-link">
+          <a href="index.html" class="nav-link">
             Home |
           </a>
         </li>
@@ -51,23 +57,13 @@
           </a>
         </li>
         <li class="nav-item active">
-          <a href="contact.html" class="nav-link">
-            Contact Us |
-          </a>
-        </li>
-        <li class="nav-item active">
           <a href="gallery.html" class="nav-link">
             Gallery |
           </a>
         </li>
         <li class="nav-item active">
-          <a href="login.php" class="nav-link">
-            Login |
-          </a>
-        </li>
-        <li class="nav-item active">
-          <a href="register.php" class="nav-link">
-            User-Registration
+          <a href="contact.html" class="nav-link">
+            Contact Us |
           </a>
         </li>
 
@@ -75,12 +71,12 @@
 
       <!-- Social Media icons -->
       <div class="nav-icons d-none d-lg-block">
-        <a href="#" class="nav-icon">
+        <a href="https://www.facebook.com" class="nav-icon">
           <i class="fab fa-facebook"></i>
         </a>
-        <a href="#" class="nav-icon">
+        <a href="https://www.twitter.com" class="nav-icon">
           <i class="fab fa-twitter"></i>
-        </a><a href="#" class="nav-icon">
+        </a><a href="https://www.instagram.com" class="nav-icon">
           <i class="fab fa-instagram"></i>
         </a>
       </div>
@@ -107,7 +103,7 @@
         <!-- 1st -->
         <div class="col-sm-6 col-lg-4 text-center my-3">
           <a href="#" class="skills-icon p-2">
-            <img src="imgs/img-2.jpg" class="rounded-circle" alt="">
+            <img src="imgs/profile-pic.jpeg" class="rounded-circle" alt="">
           </a>
           <h6 class="text-uppercase font-weight-bold my-3">Wayne Mwandi</h6>
           <p class="w-75 mx-auto text_muted">Founder & CEO</p>
@@ -115,6 +111,9 @@
             <p>We're now the largest social car brand for Mercedes Benz enthusiasts in the world, and these days I spend my time growing the company, discussing partnerships
               with brands, promoting community and driving a modified Nissan GT-R.</p>
           </div>
+          <div class="skills-underline"><a href="#">+ (254) 715 303 037</a></div>
+          <div class="skills-underline"><a href="#">mwandiwayne@gmail.com</a></div>
+
 
         </div>
 
@@ -161,6 +160,28 @@
 
 
 
+  <footer class="footer py-5">
+    <div class="footer-icons d-flex justify-content-around">
+      <a href="https://www.facebook.com" class="footer-icon">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com" class="footer-icon">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com" class="footer-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com" class="footer-icon">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <div class="container">
+      <div class="col-12 text-center">
+        <p>&copy; 2019 Wayne Mwandi</p>
+      </div>
+
+    </div>
+  </footer>
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 </body>

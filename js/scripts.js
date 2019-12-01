@@ -1,5 +1,2 @@
-$(document).on("click", '[data-toggle="lightbox"]', function(event) {
-  event.preventDefault();
-  $(this).ekkoLightbox();
-  event.remove();
-});
+
+window.addEventListener('load', () => document.querySelector('.preloader').classList.add('hidePreloader'))

@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: #F9F7F2;
+  background-color: black;
+  margin-top: 75px;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+}
+
+/* Style the container/contact section */
+.container2 {
+  border-radius: 5px;
+  background-color: grey;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/* Preloader */
+.preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 999;
+}
+
+.hidePreloader {
+  display: none !important;
+}
+/* navbar */
+.navbar {
+  background: #F3EFF5;
+  margin-bottom: 5px;
+}
+
+.navbar-icon {
+  font-size: 2rem;
+  /* color: #blue !important; */
+}
+
+.navbar-toggler {
+  /* outline-color: #blue !important; */
+  display: block;
+  top: 10px;
+}
+
+.nav-link {
+  color: black;
+  text-transform: capitalize;
+  text-decoration: none !important;
+  transition-property: color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+
+.nav-link:hover {
+  color: #e21717;
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none !important;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.nav-icon:hover {
+  color: #e21717;
+  text-decoration: none;
+}
+
+/* Footer icons*/
+.footer {
+  background: black;
+}
+
+.footer-icon {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #e21717;
+  transition:
+}
+
+.footer-icon:hover {
+  color: red;
+}
+
+#imgs {
+  border-radius: 50%;
+}
+
+/* Section Title */
+.section-title--special {
+  background: #e21717;
+  color: black;
+  padding: 0.5rem 2rem;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+
+.section2 {
+  margin-top: 100px;
+}
